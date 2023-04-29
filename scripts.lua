@@ -3,5 +3,6 @@ getgenv().scripts = {
     name = "Debug",
     location = "debug/",
     versions = { "1" },
+    latestVersion = "1"
   },
 }
