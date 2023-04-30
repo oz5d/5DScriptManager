@@ -11,4 +11,3 @@ getgenv().loadScript = function(scriptTableKey,scriptVersion)
 	end
 	loadstring(game:HttpGet(locationPrefix..scriptInfo.scriptRepository.."/"..scriptVersion.."/"..scriptInfo.fileName))()
 end
-loadScript("debug")
